@@ -7,7 +7,7 @@ LABEL maintainer="FrozenFOXX <frozenfoxx@cultoffoxx.net>"
 # Variables
 WORKDIR /app
 ENV APPDIR="/app" \
-  APP_DEPS="ffmpeg imagemagick" \
+  APP_DEPS="" \
   BUILD_DEPS="build-base libffi-dev python3-dev" \
   CONFIG="/etc/beatbot/conf/beatbot.yml"
 
