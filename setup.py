@@ -31,7 +31,7 @@ setuptools.setup(
         "console_scripts": ["beatbot=beatbot.beatbot:main"],
     },
     data_files=[
-        ('/etc/beatbot', ['conf/beatbot.yml'])
+        ('/etc/beatbot', ['conf/common.cfg'])
     ],
 )
 
